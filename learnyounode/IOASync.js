@@ -4,6 +4,5 @@ fs.readFile(fichier, 'utf8',
 	function callback(err,strContenu) {
 		console.log(strContenu.split('\n').length - 1);
 	}
-
 );
 
